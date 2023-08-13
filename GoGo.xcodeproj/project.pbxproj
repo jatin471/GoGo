@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B02C6D92A7B8EAB0043D1B4 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02C6D82A7B8EAB0043D1B4 /* AuthButton.swift */; };
+		1B10B14A2A7CB23A0030610B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10B1492A7CB23A0030610B /* User.swift */; };
+		1B14FD372A79152400A10A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B14FD352A79152400A10A32 /* Main.storyboard */; };
+		1B14FD392A7915EF00A10A32 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B14FD382A7915EF00A10A32 /* Extensions.swift */; };
+		1B1E8F312A7A5C30004C5AD7 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E8F302A7A5C30004C5AD7 /* HomeController.swift */; };
+		1B1F7A0B2A7E995C003C5F51 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F7A0A2A7E995C003C5F51 /* LocationHandler.swift */; };
+		1B3D9EDD2A7BCD230060546B /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D9EDC2A7BCD230060546B /* LocationInputView.swift */; };
+		1B5EFAFF2A81192B005E77F8 /* RideActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5EFAFE2A81192B005E77F8 /* RideActionView.swift */; };
+		1B604E8A2A7CA27C00A8DDCF /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B604E892A7CA27C00A8DDCF /* Service.swift */; };
+		1B61EECB2A7C05C6001510DD /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B61EECA2A7C05C6001510DD /* LocationCell.swift */; };
+		1B73B07F2A7A46FA0011E0FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B73B07E2A7A46FA0011E0FE /* GoogleService-Info.plist */; };
+		1B7C249D2A7B8ED9004DB158 /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7C249C2A7B8ED9004DB158 /* LocationInputActivationView.swift */; };
+		1B93EEDC2A79477C0016E4CC /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93EEDB2A79477C0016E4CC /* SignUpController.swift */; };
+		1BACAC292A7F556800C907BE /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BACAC282A7F556800C907BE /* DriverAnnotation.swift */; };
+		1BB59B432A83B44C00E0AE4B /* PickupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB59B422A83B44C00E0AE4B /* PickupController.swift */; };
 		1BC828522A790D3200CCA58C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC828512A790D3200CCA58C /* AppDelegate.swift */; };
 		1BC828542A790D3200CCA58C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC828532A790D3200CCA58C /* SceneDelegate.swift */; };
-		1BC828562A790D3200CCA58C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC828552A790D3200CCA58C /* ViewController.swift */; };
-		1BC828592A790D3200CCA58C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC828572A790D3200CCA58C /* Main.storyboard */; };
 		1BC8285B2A790D3500CCA58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8285A2A790D3500CCA58C /* Assets.xcassets */; };
 		1BC8285E2A790D3500CCA58C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8285C2A790D3500CCA58C /* LaunchScreen.storyboard */; };
+		1BC96D282A790E1A00F31D3F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC96D272A790E1A00F31D3F /* LoginController.swift */; };
+		1BD4B67F2A82672D006C41E3 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD4B67E2A82672D006C41E3 /* Trip.swift */; };
+		5DFB07157047BA54C75D61CA /* Pods_GoGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87340E68A471781F9CF76069 /* Pods_GoGo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B02C6D82A7B8EAB0043D1B4 /* AuthButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		1B10B1492A7CB23A0030610B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = GoGo/Model/User.swift; sourceTree = SOURCE_ROOT; };
+		1B14FD362A79152400A10A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B14FD382A7915EF00A10A32 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1B1E8F302A7A5C30004C5AD7 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		1B1F7A0A2A7E995C003C5F51 /* LocationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		1B3D9EDC2A7BCD230060546B /* LocationInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationInputView.swift; path = GoGo/View/LocationInputView.swift; sourceTree = SOURCE_ROOT; };
+		1B5EFAFE2A81192B005E77F8 /* RideActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RideActionView.swift; path = GoGo/View/RideActionView.swift; sourceTree = SOURCE_ROOT; };
+		1B604E892A7CA27C00A8DDCF /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service.swift; path = GoGo/Service/Service.swift; sourceTree = SOURCE_ROOT; };
+		1B61EECA2A7C05C6001510DD /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationCell.swift; path = GoGo/View/LocationCell.swift; sourceTree = SOURCE_ROOT; };
+		1B73B07E2A7A46FA0011E0FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1B7C249C2A7B8ED9004DB158 /* LocationInputActivationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
+		1B93EEDB2A79477C0016E4CC /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		1BACAC282A7F556800C907BE /* DriverAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
+		1BB59B422A83B44C00E0AE4B /* PickupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupController.swift; sourceTree = "<group>"; };
 		1BC8284E2A790D3200CCA58C /* GoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC828512A790D3200CCA58C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BC828532A790D3200CCA58C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1BC828552A790D3200CCA58C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1BC828582A790D3200CCA58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BC8285A2A790D3500CCA58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BC8285D2A790D3500CCA58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BC8285F2A790D3500CCA58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC96D272A790E1A00F31D3F /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		1BD4B67E2A82672D006C41E3 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		87340E68A471781F9CF76069 /* Pods_GoGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BABDDCC2E8AC5EC888255B /* Pods-GoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo.debug.xcconfig"; path = "Target Support Files/Pods-GoGo/Pods-GoGo.debug.xcconfig"; sourceTree = "<group>"; };
+		D3673191D906E4C0EFE3929B /* Pods-GoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo.release.xcconfig"; path = "Target Support Files/Pods-GoGo/Pods-GoGo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFB07157047BA54C75D61CA /* Pods_GoGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				1BC828502A790D3200CCA58C /* GoGo */,
 				1BC8284F2A790D3200CCA58C /* Products */,
+				F9ADED353246AFB026014255 /* Pods */,
+				A0A00558578136472E910BA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,87 @@
 		1BC828502A790D3200CCA58C /* GoGo */ = {
 			isa = PBXGroup;
 			children = (
+				1BC8286D2A790D7F00CCA58C /* Model */,
+				1BC8286C2A790D7B00CCA58C /* View */,
+				1BC8286B2A790D7600CCA58C /* Controller */,
+				1BC8286A2A790D7000CCA58C /* Service */,
+				1BC828692A790D6A00CCA58C /* Utils */,
 				1BC828512A790D3200CCA58C /* AppDelegate.swift */,
+				1B14FD352A79152400A10A32 /* Main.storyboard */,
+				1B73B07E2A7A46FA0011E0FE /* GoogleService-Info.plist */,
 				1BC828532A790D3200CCA58C /* SceneDelegate.swift */,
-				1BC828552A790D3200CCA58C /* ViewController.swift */,
-				1BC828572A790D3200CCA58C /* Main.storyboard */,
 				1BC8285A2A790D3500CCA58C /* Assets.xcassets */,
 				1BC8285C2A790D3500CCA58C /* LaunchScreen.storyboard */,
 				1BC8285F2A790D3500CCA58C /* Info.plist */,
 			);
 			path = GoGo;
+			sourceTree = "<group>";
+		};
+		1BC828692A790D6A00CCA58C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1B14FD382A7915EF00A10A32 /* Extensions.swift */,
+				1B1F7A0A2A7E995C003C5F51 /* LocationHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1BC8286A2A790D7000CCA58C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1B604E892A7CA27C00A8DDCF /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1BC8286B2A790D7600CCA58C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BC96D272A790E1A00F31D3F /* LoginController.swift */,
+				1B1E8F302A7A5C30004C5AD7 /* HomeController.swift */,
+				1B93EEDB2A79477C0016E4CC /* SignUpController.swift */,
+				1BB59B422A83B44C00E0AE4B /* PickupController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BC8286C2A790D7B00CCA58C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B02C6D82A7B8EAB0043D1B4 /* AuthButton.swift */,
+				1B7C249C2A7B8ED9004DB158 /* LocationInputActivationView.swift */,
+				1B3D9EDC2A7BCD230060546B /* LocationInputView.swift */,
+				1B61EECA2A7C05C6001510DD /* LocationCell.swift */,
+				1B5EFAFE2A81192B005E77F8 /* RideActionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BC8286D2A790D7F00CCA58C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BD4B67E2A82672D006C41E3 /* Trip.swift */,
+				1BACAC282A7F556800C907BE /* DriverAnnotation.swift */,
+				1B10B1492A7CB23A0030610B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0A00558578136472E910BA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87340E68A471781F9CF76069 /* Pods_GoGo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9ADED353246AFB026014255 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0BABDDCC2E8AC5EC888255B /* Pods-GoGo.debug.xcconfig */,
+				D3673191D906E4C0EFE3929B /* Pods-GoGo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BC828622A790D3500CCA58C /* Build configuration list for PBXNativeTarget "GoGo" */;
 			buildPhases = (
+				CA5C690897FF7B3A0CE91193 /* [CP] Check Pods Manifest.lock */,
 				1BC8284A2A790D3200CCA58C /* Sources */,
 				1BC8284B2A790D3200CCA58C /* Frameworks */,
 				1BC8284C2A790D3200CCA58C /* Resources */,
+				D6159AD5DE291697C17D5F71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,32 +236,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B14FD372A79152400A10A32 /* Main.storyboard in Resources */,
+				1B73B07F2A7A46FA0011E0FE /* GoogleService-Info.plist in Resources */,
 				1BC8285E2A790D3500CCA58C /* LaunchScreen.storyboard in Resources */,
 				1BC8285B2A790D3500CCA58C /* Assets.xcassets in Resources */,
-				1BC828592A790D3200CCA58C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA5C690897FF7B3A0CE91193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6159AD5DE291697C17D5F71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoGo/Pods-GoGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoGo/Pods-GoGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoGo/Pods-GoGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BC8284A2A790D3200CCA58C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC828562A790D3200CCA58C /* ViewController.swift in Sources */,
+				1B93EEDC2A79477C0016E4CC /* SignUpController.swift in Sources */,
+				1B02C6D92A7B8EAB0043D1B4 /* AuthButton.swift in Sources */,
+				1B1E8F312A7A5C30004C5AD7 /* HomeController.swift in Sources */,
+				1B3D9EDD2A7BCD230060546B /* LocationInputView.swift in Sources */,
+				1BD4B67F2A82672D006C41E3 /* Trip.swift in Sources */,
+				1BB59B432A83B44C00E0AE4B /* PickupController.swift in Sources */,
+				1BACAC292A7F556800C907BE /* DriverAnnotation.swift in Sources */,
 				1BC828522A790D3200CCA58C /* AppDelegate.swift in Sources */,
+				1BC96D282A790E1A00F31D3F /* LoginController.swift in Sources */,
+				1B61EECB2A7C05C6001510DD /* LocationCell.swift in Sources */,
+				1B1F7A0B2A7E995C003C5F51 /* LocationHandler.swift in Sources */,
 				1BC828542A790D3200CCA58C /* SceneDelegate.swift in Sources */,
+				1B5EFAFF2A81192B005E77F8 /* RideActionView.swift in Sources */,
+				1B10B14A2A7CB23A0030610B /* User.swift in Sources */,
+				1B604E8A2A7CA27C00A8DDCF /* Service.swift in Sources */,
+				1B7C249D2A7B8ED9004DB158 /* LocationInputActivationView.swift in Sources */,
+				1B14FD392A7915EF00A10A32 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1BC828572A790D3200CCA58C /* Main.storyboard */ = {
+		1B14FD352A79152400A10A32 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1BC828582A790D3200CCA58C /* Base */,
+				1B14FD362A79152400A10A32 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -203,7 +371,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -223,6 +391,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ld64";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -266,7 +435,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -279,6 +448,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ld64";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -287,6 +457,7 @@
 		};
 		1BC828632A790D3500CCA58C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BABDDCC2E8AC5EC888255B /* Pods-GoGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +486,7 @@
 		};
 		1BC828642A790D3500CCA58C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3673191D906E4C0EFE3929B /* Pods-GoGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
