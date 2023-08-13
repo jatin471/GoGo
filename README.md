@@ -2,7 +2,7 @@
 
 GoGo - iOS Swift Ride-Hailing App
 
-GoGo is a cutting-edge iOS ride-hailing app built using Swift, designed to provide users with a seamless and convenient transportation experience, similar to popular apps like Uber. Powered by the GeoFire pod and MapKit, GoGo connects riders with drivers, helping users reach their destinations efficiently.
+GoGo is a cutting-edge iOS ride-hailing app built using Swift, designed to provide users with a seamless and convenient transportation experience. Powered by the GeoFire pod and MapKit, GoGo connects riders with drivers, helping users reach their destinations efficiently.
 
 Features
 
