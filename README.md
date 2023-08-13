@@ -7,13 +7,20 @@ GoGo is a cutting-edge iOS ride-hailing app built using Swift, designed to provi
 Features
 
 Rider Interface
+
 👉Ride Request: Easily request a ride by specifying your pickup and drop-off locations on the map.
+
 👉Driver Details: View your driver's profile, including their name, rating, and vehicle information.
+
 👉Ride History: Access your ride history, including details of past trips and fares.
 
+
 Driver Interface
+
 👉Trip Requests: Drivers receive ride requests and can choose to accept or decline them.
+
 👉Real-time Navigation: Utilize real-time navigation with MapKit to reach the rider's location and destination.
+
 👉Driver Profile: Maintain a driver profile with important information and ratings.
 
 How It Works
